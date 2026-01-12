@@ -1,1 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" id="$L5t}o.)~f)5[5~bUu-H" x="384" y="-84"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="basic_show_icon" id="`W]$d7QP#lA9rxj97BBJ"><field name="i">IconNames.StickFigure</field></block></statement></block><block type="pxt-on-start" id="Ta-vE*a!c#CD_~FyqA0a" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="g[5Ts,t5vT,@fN0(07rl"><field name="i">IconNames.Duck</field></block></statement></block><block type="device_pause" id="f[9si2Q27PzXGwXsYt}/" disabled-reasons="pxt_automatic_disabled" x="209" y="211"><value name="pause"><shadow type="timePicker" id="E3nw1gyc?jLCo:Eqie/v" disabled-reasons="pxt_automatic_disabled"><field name="ms">100</field></shadow></value></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" id="$L5t}o.)~f)5[5~bUu-H" x="484" y="-268"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_if" id="Vq.K9kk.s/vXxkn+2%r%"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="1rD_P/{z-O#{Y;dYAEi}" disabled-reasons="pxt_automatic_disabled"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="rSRxG;-om[#Edn7z:(n,"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="basic_show_icon" id="`W]$d7QP#lA9rxj97BBJ"><field name="i">IconNames.StickFigure</field><next><block type="device_pause" id="f[9si2Q27PzXGwXsYt}/"><value name="pause"><shadow type="timePicker" id="E3nw1gyc?jLCo:Eqie/v"><field name="ms">5000</field></shadow></value><next><block type="device_show_leds" id="(qSsF]N2BP/n9/nF?P`,"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # # 
+        # # # # # 
+        . # . . #
+        `</field></block></next></block></next></block></statement><statement name="ELSE"><block type="device_set_digital_pin" id="l7Yw#Lp1mWfKrx`4Rrbg"><value name="name"><shadow type="digital_pin_shadow" id="jcxX8F!1keY.T$a894Rq"><field name="pin">DigitalPin.P0</field></shadow></value><value name="value"><shadow type="math_number_minmax" id="SdsZ53jhdvn02cSnMCh%"><mutation min="0" max="1" label="Value" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></block></statement></block></statement></block><block type="pxt-on-start" id="Ta-vE*a!c#CD_~FyqA0a" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="Gk3hdn8ODLsNxQaWo#=f"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # # 
+        # # # # # 
+        . # . . #
+        `</field></block></statement></block></xml>
