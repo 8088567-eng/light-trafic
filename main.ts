@@ -10,14 +10,6 @@ input.onButtonPressed(Button.A, function () {
             . # . . #
             `)
     } else {
-        pins.digitalWritePin(DigitalPin.P0, 0)
+    	
     }
 })
-basic.showLeds(`
-    . . . . .
-    . . . . .
-    . # # # #
-    . # # # #
-    . # . . #
-    `)
-music.play(music.stringPlayable("- - - - - - - - ", 120), music.PlaybackMode.UntilDone)
