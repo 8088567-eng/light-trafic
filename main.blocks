@@ -1,13 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="xRRgvHNlG#rZ^u`HECiY" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="CT[:1;2SHAi]6%~ig;SI"><field name="LEDS">`
-        . . . . . 
-        . . . . . 
-        . # # # # 
-        . # # # # 
-        . # . . #
-        `</field></block></statement></block><block type="device_button_event" id="^tXm5tz^R/2`$J.m.2cz" x="244" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_if" id="QP*cUmz$@6oyKB(hh@kG"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="Sch@~27d}9n9.pzo^NZh"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="}2s|qPY-FJncD7F=iA06"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="basic_show_icon" id="#$T,8PNU]8ld1i%qn?X1"><field name="i">IconNames.StickFigure</field><next><block type="device_pause" id="^lb},H!D(@w9bmk+kQ,6"><value name="pause"><shadow type="timePicker" id="a~ik]Hm^x8*:,aOi@WRp"><field name="ms">5000</field></shadow></value><next><block type="device_show_leds" id="{NuGfhe4gEj}P^/eZHd7"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" id="^tXm5tz^R/2`$J.m.2cz" x="244" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_if" id="QP*cUmz$@6oyKB(hh@kG"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="Sch@~27d}9n9.pzo^NZh"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="}2s|qPY-FJncD7F=iA06"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="basic_show_icon" id="#$T,8PNU]8ld1i%qn?X1"><field name="i">IconNames.StickFigure</field><next><block type="device_pause" id="^lb},H!D(@w9bmk+kQ,6"><value name="pause"><shadow type="timePicker" id="a~ik]Hm^x8*:,aOi@WRp"><field name="ms">5000</field></shadow></value><next><block type="device_show_leds" id="{NuGfhe4gEj}P^/eZHd7"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . # # # # 
         # # # # # 
         . # . . #
-        `</field></block></next></block></next></block></statement><statement name="ELSE"><block type="device_set_digital_pin" id="GbgFY{xPfbpUZTe%%]_C"><value name="name"><shadow type="digital_pin_shadow" id="y56Lo8~JNcte61;IeXCK"><field name="pin">DigitalPin.P0</field></shadow></value><value name="value"><shadow type="math_number_minmax" id="g6dKX+Sa|1J|4OYh|i@F"><mutation min="0" max="1" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></block></statement></block></statement></block></xml>
+        `</field></block></next></block></next></block></statement><statement name="ELSE"><block type="device_set_digital_pin" id="GbgFY{xPfbpUZTe%%]_C"><value name="name"><shadow type="digital_pin_shadow" id="y56Lo8~JNcte61;IeXCK"><field name="pin">DigitalPin.P0</field></shadow></value><value name="value"><shadow type="math_number_minmax" id="g6dKX+Sa|1J|4OYh|i@F"><mutation min="0" max="1" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></block></statement></block></statement></block><block type="pxt-on-start" id="xRRgvHNlG#rZ^u`HECiY" x="35" y="68"><statement name="HANDLER"><block type="device_show_leds" id="CT[:1;2SHAi]6%~ig;SI"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # # 
+        . # # # # 
+        . # . . #
+        `</field><next><block type="music_playable_play" id="z)gWgmYXHw?s0):rLOG("><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="7b=4E3x]8|GkMrPGfsLr"><value name="melody"><shadow type="melody_editor" id="F!UfWRAGMOa?v:nqm`cq"><field name="melody">"- - - - - - - - "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="64?[%S9^-TNnx01:}J4U"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value></block></next></block></statement></block></xml>
